@@ -1,0 +1,93 @@
+1. Assume that this code is linked together correctly.
+
+	p{
+  		color: red;
+  		padding:10px 5px;
+  		background: black;
+	}
+	.fancy{
+  		font-family: cursive;
+  		background: red;
+  		color: green;
+	}
+	.plain{
+  		font-family: Times, serif;
+  		color: black;
+	}  
+
+ans. red
+
+2. Assume that this code is linked together correctly.
+
+		p{
+  			color: red;
+  			padding:10px 5px;
+  			background: black;
+		}
+		.fancy{
+  			font-family: cursive;
+  			background: red;
+  			color: green;
+		}
+		.plain{
+  			font-family: Times, serif;
+  			color: black;
+		}  
+ans. black
+
+3. Assume that this code is linked together correctly.
+
+	p{
+  		color: red;
+  		padding:10px 5px;
+  		background: black;
+	}
+	.fancy{
+  		font-family: cursive;
+  		background: red;
+  		color: green;
+	}
+	.plain{
+  		font-family: Times, serif;
+  		color: black;
+	}  
+ans. black 
+
+4. What is the correct HTML for referring to an external style sheet?
+ans. <link rel="stylesheet" href="mystyle.css">
+
+5. What is the correct HTML for referring to an external style sheet stored in a subfolder called css?
+ans.<link rel="stylesheet" href="css/mystyle.css"> 
+
+6. The styling contained in the style tag has precedence over the style attribute.
+ans. false 
+
+7.Which CSS property controls the text size?
+ans. font-size
+
+8. How do you display hyperlinks without an underline?
+ans.a{text-decoration:none;}
+
+9. In the following code snippet, what value is given for the left margin?
+ans. 8px
+
+10. The # symbol specifies that the selector is a/an
+ans. id
+
+11. Which of the following would be used to create class called button which has a width of 750px, a height of 30px and the color of the text is black?
+ans..button{height:30px;width:750px;color:black;}
+
+12. Which snippet of CSS is commonly used to center an element horizontally?
+ans.margin:0 auto;
+
+13. A default style sheet is used to:
+ans.eliminate difference in browser default styling 
+
+14. Which of the following is not a browser prefix?
+ans. edge
+
+15. Descendant selectors are more general than child selectors
+ans. true
+
+16. How much width will this div occupy? 
+ans. 138px
