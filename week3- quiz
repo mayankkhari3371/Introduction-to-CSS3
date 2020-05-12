@@ -1,0 +1,37 @@
+1. The default value for the position property is:
+ans. static 
+
+2. What is wrong with this code?
+  
+	div{
+   		position: static;
+   		left: 10px;
+	}
+ans. the code works, but the left property is not necessary since static elements don't allow offsets
+
+3. If you want your navigation bar to remain visible, even when the user scrolls downward, you should use which type of positioning?
+ans. fixed
+
+4. Which of the following is the proper syntax for a pseudo-class?
+ans.   selector:pseudo-class { 
+   				property:value;
+			     }
+
+5. Which of the following rules styles the first paragraph in each div?
+ans.   div p:first-child { 
+   				color: blue;
+			 } 
+
+6. Which CSS3 property allows you to change property values smoothly over a given duration?
+ans. transition 
+
+7. Sometimes elements overlap one another. Which property specifies the stacking order of the elements? (A high value means it is more likely to be place in front of another.) ONLY PROVIDE THE PROPERTY, NOT A VALUE.
+ans. z-index
+
+8. Which rule will change the text color of p elements with the class "highlight" when hovered over?
+ans.   p.highlight:hover{ 
+  				color:green;
+			}
+
+9. What are the four principles of Accessibility?
+ans. POUR
