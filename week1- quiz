@@ -1,0 +1,63 @@
+1. Which of the following is not an option for specifying a color in CSS3?
+ans.binary 
+
+2. If your body tag uses the style attribute style="text-align:center", you can overwrite that property by using the CSS3 rule.
+
+	body{
+   	text-align: left;
+	}
+ans.false 
+
+3. What is wrong with the following code?
+
+	body{
+   	color: #000000;
+   	background-color:#FFFFFF
+   	font-family: Times, Arial, Cursive;
+	}
+ans.there is a missing semicolon 
+
+4. Assume the following rule is the only one that styles the body element:
+
+	body{
+   	font-family: Cursive, Helvetica, Verdana;
+	}
+ans.the text will be displayed in the default browser font-family 
+
+5.The browser defaults override rules specified in an external style sheets.
+ans.false
+
+6.Using the code below, will the body of the page have the background-color defined in the file style.css or the background color define in the <style> tag?
+
+	<head>
+    		<meta charset = "UTF-8">
+    		<title>Test code</title>
+    		<link rel "stylesheet" href = "style.css">
+    	<style>
+        	body{
+            	background-color: #44CCDD;
+        	}
+    	</style>
+	</head>
+ans. <style>
+
+7. Internal styling (rules specified in the <head> section) override rules specified with the style attribute in a tag.
+ans.false
+
+8.The default display value for <a> element is:
+ans. inline 
+
+9.The default display value for <span> is:
+ans.inline 
+
+10.A block element takes up the full width of it's parent, even if the content is smaller than the parent. So two block elements at the same will not be side-by-side.
+ans.true
+
+11.Inline elements take up the full width of the browser, even if the content is smaller than the browser size.
+ans.false
+
+12.Which CSS3 property is used to center text? (Provide on the property, not the value!)
+ans.text-align
+
+13.Which of the following is the best way to convey that your text has special meaning?
+ans.use semantic tags in addition to color/ or font 
